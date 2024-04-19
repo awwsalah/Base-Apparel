@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Josefin Sans", sans-serif;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    height: 800px;
+    background-image: url(Images/background.png);
+    background-size: 1440px;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 100px 0px;
+    padding-left: 150px;
+    padding-right: 20px;
+    height: 800px;
+    
+}
+.logo{
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.text{
+    max-width: 445px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding-bottom: 200px;
+    gap: 10px;
+
+}
+.input-btn{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+input{
+    height: 56px;
+    width: 445px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #CE9898;
+    justify-content: flex-start;
+}
+button{
+    z-index: 100;
+    position: relative;
+    width: 100px;
+    height: 56px;
+    background-image: linear-gradient(#F8BFBF,#EE8B8B);
+    border-radius: 50px;
+    border: none;
+    justify-content: flex-end;
+}   
+i{
+    color: white;
+    width: 9px;
+    height: 17px;
+    
+    
+}
+
+h1{
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #CE9898;
+    letter-spacing: 17px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #CE9898;
+}
+span{
+    font-weight: 600;
+    font-size: 64px;
+    color: #423A3A;
+    letter-spacing: 17px;
+}
+
+img{
+    width: 100%;
+}
+
